@@ -1,7 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan&display=swap");
+
+/***! Core ***/
+
+body {
+  background-color: #281c24;
+  color: white;
+  font-family: "Spartan", sans-serif;
+}
+
 .main {
   height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.name {
+  font-size: 128px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/***! Nav ***/
+
+.nav {
+  height: 100vh;
+  margin-top: 75%;
+}
+
+/***! Socials ***/
+
+.fab,
+.fas {
+  color: white;
+}
+
+.fab:hover,
+.fas:hover {
+  color: #fffa;
+}
+
+.socials {
+  padding-left: 10%;
+  padding-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.social {
+  height: 100px;
 }
