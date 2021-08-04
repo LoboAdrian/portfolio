@@ -6,6 +6,7 @@ body {
   background-color: #281c24;
   color: white;
   font-family: "Spartan", sans-serif;
+  overflow: hidden;
 }
 
 .main {
@@ -26,9 +27,14 @@ ul {
 
 /***! Nav ***/
 
-.nav {
-  height: 100vh;
-  margin-top: 75%;
+.navlist {
+  padding: 0;
+}
+
+.navitem {
+  display: block;
+  float: left;
+  margin-right: 4rem;
 }
 
 /***! Socials ***/
