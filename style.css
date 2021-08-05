@@ -37,6 +37,23 @@ ul {
   margin-right: 4rem;
 }
 
+.btn {
+  font-size: 32px;
+  background-color: white;
+  color: #281c24;
+  border: 1px solid #281c24;
+  padding: 10px 30px;
+}
+
+.btn:hover {
+  transition-duration: 0.6s;
+  font-size: 32px;
+  background-color: #281c24;
+  color: white;
+  border: 1px solid white;
+  padding: 10px 30px;
+}
+
 /***! Socials ***/
 
 .fab,
